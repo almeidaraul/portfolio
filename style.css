@@ -1,0 +1,44 @@
+:root {
+	--white: #F5F5F5;
+	--green: #30E3CA;
+	--blue: #2F89FC;
+	--gray: #40514E;
+}
+
+body {
+	background-color: var(--white);
+	color: var(--gray);
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10%;
+}
+
+@media only screen and (min-width: 768px) {
+	body {
+		margin-left: 30%;
+		margin-right: 30%;
+		margin-top: 50px;
+	}
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: 400;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+p {
+	font-size: 1em;
+}
+
+.tags {
+	font-size: 0.8em;
+}

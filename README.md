@@ -1,2 +1,2 @@
-# portfolio
-Simple portfolio
+# Portfolio
+Minimal personal portfolio
