@@ -9,12 +9,13 @@ body {
 	background-color: var(--white);
 	color: var(--gray);
 	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-top: 10%;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
 	body {
 		margin-left: 30%;
 		margin-right: 30%;
@@ -22,23 +23,56 @@ body {
 	}
 }
 
+#h1-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 h1 {
+	text-align: center;
 	font-size: 2em;
 	font-weight: 400;
+	display: inline-block;
+	line-height: 0.7em;
+	border-bottom: 0.17em solid var(--blue);
 }
 
 h2 {
 	font-size: 1.5em;
+	margin: 0;
 }
 
 h3 {
 	font-size: 1em;
+	margin: 0;
+	margin-top: 0.8em;
+	margin-bottom: 0;
 }
 
 p {
 	font-size: 1em;
+	margin: 0;
 }
 
 .tags {
 	font-size: 0.8em;
+	font-style: italic;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+	border-bottom: 0.17em solid var(--green);
+	line-height: 0.7em;
+	color: inherit;
+}
+
+#git {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.description {
+	margin-top: 0.2em;
 }
