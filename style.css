@@ -15,13 +15,6 @@ body {
 	margin-top: 10%;
 }
 
-@media only screen and (min-width: 1024px) {
-	body {
-		margin-left: 30%;
-		margin-right: 30%;
-		margin-top: 50px;
-	}
-}
 
 #h1-wrapper {
 	display: flex;
@@ -31,7 +24,7 @@ body {
 
 h1 {
 	text-align: center;
-	font-size: 2em;
+	font-size: 64px;
 	font-weight: 400;
 	display: inline-block;
 	line-height: 0.7em;
@@ -39,24 +32,24 @@ h1 {
 }
 
 h2 {
-	font-size: 1.5em;
+	font-size: 48px;
 	margin: 0;
 }
 
 h3 {
-	font-size: 1em;
+	font-size: 32px;
 	margin: 0;
 	margin-top: 0.8em;
 	margin-bottom: 0;
 }
 
 p {
-	font-size: 1em;
+	font-size: 32px;
 	margin: 0;
 }
 
 .tags {
-	font-size: 0.8em;
+	font-size: 24px;
 	font-style: italic;
 }
 
@@ -75,4 +68,39 @@ a {
 
 .description {
 	margin-top: 0.2em;
+}
+
+@media only screen and (min-width: 1024px) {
+	body {
+		margin-left: 30%;
+		margin-right: 30%;
+		margin-top: 50px;
+	}
+
+	h1 {
+		font-size: 2em;
+	}
+
+	h2 {
+		font-size: 1.5em;
+	}
+
+	h3 {
+		font-size: 1em;
+	}
+
+	p {
+		font-size: 1em;
+	}
+
+	.tags {
+		font-size: 0.8em;
+	}
+}
+
+@media only screen and (min-width: 2000px) {
+	body {
+		margin-left: 40%;
+		margin-right: 40%;
+	}
 }
